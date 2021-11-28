@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+    <div id = screen>
+
+    </div>
+    <div id = control >
+    <div id = line1>
+        <button id = btn onclick="getValue(7)">7</button>
+        <button id = btn onclick="getValue(8)">8</button>
+        <button id = btn onclick="getValue(9)">9</button>
+        <button id = delete>Del</button>
+    </div>
+    <div id = line2>
+        <button id = btn onclick="getValue(4)">4</button>
+        <button id = btn onclick="getValue(5)">5</button>
+        <button id = btn onclick="getValue(6)">6</button>
+        <button id = del style = "margin-left: 10px;">+</button>
+    </div>
+    <div id = line3>
+        <button id = btn onclick="getValue(1)">1</button>
+        <button id = btn onclick="getValue(2)">2</button>
+        <button id = btn onclick="getValue(3)">3</button>
+        <button id = del style = "margin-left: 12px;">-</button>
+    </div>
+    <div id = line4>
+        <button id = btn>.</button>
+        <button id = btn >0</button>
+        <button id = btn>/</button>
+        <button id = btn style = "margin-left: 15px;">*</button>
+    </div>
+    <div id = line5>
+        <button id = reset>RESET</button>
+        <button id = equals>=</button>
+    </div>
+</div>
+</body>
+<script src="calculator.js"></script>
+</html>

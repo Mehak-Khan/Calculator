@@ -1,0 +1,53 @@
+#screen {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: darkblue;
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    height: 50px;
+}
+
+#control {
+    width: 20%;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: darkblue;
+    padding-left: 25px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#btn {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#del {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#delete {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#reset {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+#equals {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
